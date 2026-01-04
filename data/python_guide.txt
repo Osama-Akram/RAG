@@ -1,0 +1,52 @@
+# Python Programming Guide
+
+Python is a high-level, interpreted programming language known for its simplicity and readability.
+
+## Key Features
+
+1. **Easy to Learn**: Python's syntax is clear and intuitive.
+2. **Interpreted**: No compilation needed, runs line by line.
+3. **Cross-platform**: Works on Windows, Mac, Linux, etc.
+4. **Large Standard Library**: Includes modules for many tasks.
+
+## Basic Syntax
+
+```python
+# Variables
+name = "Alice"
+age = 25
+is_student = True
+
+# Lists
+fruits = ["apple", "banana", "cherry"]
+
+# Functions
+def greet(name):
+    return f"Hello, {name}!"
+
+# Classes
+class Dog:
+    def __init__(self, name):
+        self.name = name
+
+    def bark(self):
+        return "Woof!"
+```
+
+## Popular Frameworks
+
+- **Django**: Full-stack web framework
+- **Flask**: Lightweight web framework
+- **FastAPI**: Modern API framework
+- **NumPy**: Numerical computing
+- **Pandas**: Data analysis
+
+## Virtual Environments
+
+Use `venv` to isolate dependencies:
+
+```bash
+python -m venv myenv
+source myenv/bin/activate  # On Mac/Linux
+myenv\Scripts\activate     # On Windows
+```

@@ -1,0 +1,65 @@
+# Web Development Basics
+
+Web development involves building and maintaining websites.
+
+## Three Main Components
+
+### 1. HTML (Structure)
+HyperText Markup Language defines the structure of web pages.
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Page</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <p>This is a paragraph.</p>
+</body>
+</html>
+```
+
+### 2. CSS (Style)
+Cascading Style Sheets handles the visual appearance.
+
+```css
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: blue;
+}
+```
+
+### 3. JavaScript (Interactivity)
+JavaScript makes pages interactive.
+
+```javascript
+document.getElementById("myButton").addEventListener("click", () => {
+    alert("Button clicked!");
+});
+```
+
+## Frontend Frameworks
+
+- **React**: Component-based, by Facebook
+- **Vue**: Progressive framework
+- **Angular**: Full framework by Google
+
+## Backend Technologies
+
+- **Node.js**: JavaScript runtime
+- **Express**: Minimal Node.js framework
+- **Django**: Python web framework
+- **Ruby on Rails**: Ruby framework
+
+## RESTful APIs
+
+REST (Representational State Transfer) is an architectural style for designing networked applications. Key principles:
+
+- Stateless interactions
+- Cacheable responses
+- Uniform interface

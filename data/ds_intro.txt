@@ -1,0 +1,57 @@
+# Data Science Introduction
+
+Data Science combines statistics, programming, and domain expertise to extract insights from data.
+
+## The Data Science Process
+
+1. **Problem Definition**: Define the business question
+2. **Data Collection**: Gather relevant data
+3. **Data Cleaning**: Handle missing values, outliers
+4. **Exploratory Analysis**: Visualize and understand patterns
+5. **Modeling**: Build predictive models
+6. **Evaluation**: Measure model performance
+7. **Deployment**: Put model into production
+
+## Essential Tools
+
+| Tool | Purpose |
+|------|---------|
+| Python | Programming language |
+| SQL | Database queries |
+| Pandas | Data manipulation |
+| NumPy | Numerical computing |
+| Matplotlib | Visualization |
+| Scikit-learn | Machine learning |
+| TensorFlow | Deep learning |
+
+## Types of Analysis
+
+### Descriptive Analytics
+"What happened?" - Summarizes historical data.
+
+### Diagnostic Analytics
+"Why did it happen?" - Identifies root causes.
+
+### Predictive Analytics
+"What might happen?" - Uses historical data to predict future.
+
+### Prescriptive Analytics
+"What should we do?" - Recommends actions.
+
+## Common Algorithms
+
+- **Linear Regression**: Predicting continuous values
+- **Logistic Regression**: Binary classification
+- **Decision Trees**: Rule-based classification
+- **Random Forest**: Ensemble of decision trees
+- **K-Means**: Clustering
+- **Neural Networks**: Deep learning
+
+## Machine Learning vs Deep Learning
+
+| Aspect | Machine Learning | Deep Learning |
+|--------|------------------|---------------|
+| Data Size | Works with smaller data | Needs large datasets |
+| Feature Engineering | Manual required | Automatic |
+| Computational Cost | Lower | Higher |
+| Interpretability | Easier to understand | Black box |

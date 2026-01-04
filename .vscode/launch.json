@@ -1,0 +1,35 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "RAG: Ingest Documents",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "main",
+            "args": ["--ingest", "./data"],
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "RAG: Ask Question",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "main",
+            "args": ["--query", "What is machine learning?"],
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "RAG: Interactive Mode",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "main",
+            "args": ["--interactive"],
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
