@@ -1,4 +1,4 @@
-# GenAI - RAG System
+# RAG System
 
 A production-ready Retrieval-Augmented Generation (RAG) system that answers questions from your documents using AI.
 
@@ -6,8 +6,8 @@ A production-ready Retrieval-Augmented Generation (RAG) system that answers ques
 
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/GenAI.git
-cd genai
+git clone https://github.com/YOUR_USERNAME/RAG.git
+cd rag_system
 
 # Install dependencies
 pip install -r requirements.txt
@@ -36,7 +36,7 @@ python main.py --interactive
 ## 📁 Project Structure
 
 ```
-genai/
+rag_system/
 ├── ingestion.py      # Document loading and chunking
 ├── embedding.py      # Text embedding with sentence-transformers
 ├── vector_store.py   # FAISS vector storage
